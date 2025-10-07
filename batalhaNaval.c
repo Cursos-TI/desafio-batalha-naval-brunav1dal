@@ -41,6 +41,18 @@ for ( int j = 3; j < 6; j++) //navio na horizontal representado por 3
     tab[8][j] = 3;
 }
 
+// Imprime navio na diagonal
+for ( int i = 1; i < 4; i++) //navio na diagonal principal representado por 3
+{
+    tab[i][i] = 3;
+}
+
+for ( int j = 1; j < 4; j++) //navio na diagonal secundaria representado por 3
+{
+    tab[j][9-j] = 3;
+}
+
+
 //imprime o cabeçalho com letras nas respectivas linhas e tambem printa os elementos da matriz
 
     
